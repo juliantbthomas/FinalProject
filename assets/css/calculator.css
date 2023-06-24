@@ -1,0 +1,89 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181b;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    width: 300px;
+    height: 300px;
+    background-color: #262626;
+    color: #f8fafc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  ul.menu-superior {
+    list-style-type: none;
+    background-color: #18181b;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  ul.menu-superior li {
+    float: left;
+  }
+
+  ul.menu-superior li a {
+    display: flex;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul.menu-superior li a:hover {
+    background-color: #262626;
+  }
